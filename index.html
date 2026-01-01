@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Wahyudi & Vena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="music" loop>
+    <source src="assets/music/wedding.mp3" type="audio/mpeg">
+</audio>
+
+<!-- OVERLAY -->
+<div class="overlay" id="overlay">
+    <div class="overlay-content">
+        <h1>Wahyudi & Vena</h1>
+        <p>Kami Mengundang Anda</p>
+        <button onclick="openInvitation()">Buka Undangan</button>
+    </div>
+</div>
+
+<!-- HERO -->
+<section class="hero animate hidden">
+    <div class="overlay-hero"></div>
+    <div class="hero-content">
+        <h1>Wahyudi & Vena</h1>
+        <p>15 Januari 2026</p>
+        <span>Save The Date</span>
+    </div>
+</section>
+
+<!-- PEMBUKA -->
+<section class="section animate hidden">
+    <h2>Assalamu’alaikum Wr. Wb.</h2>
+
+    <p>
+        Dengan memohon rahmat dan ridho Allah SWT,
+        kami bermaksud menyelenggarakan pernikahan kami.
+    </p>
+
+    <p class="nama-blok">
+        <strong>Wahyudi Aji Destiyawan</strong>
+        Putra dari Bapak Sarkawi & Ibu Yasmi
+    </p>
+
+    <p>Dengan</p>
+
+    <p class="nama-blok">
+        <strong>Tri Vena Mustika Sari</strong>
+        Putri dari Alm. Bpk Dasar Priyono & Ibu Marsinah
+    </p>
+</section>
+
+<!-- AKAD -->
+<section class="section light animate hidden">
+    <h2>Akad Nikah</h2>
+    <p><strong>Kamis, 15 Januari 2026</strong></p>
+    <p>Pukul 11.00 WIB – Selesai</p>
+    <p class="alamat">
+        Ngablak, Pohgading, Kec. Gembong,<br>
+        Kabupaten Pati, Jawa Tengah
+    </p>
+    <a href="https://maps.app.goo.gl/4PiFmnsrrCPZqoc77?g_st=ipc" target="_blank" class="btn">
+        Lihat Lokasi
+    </a>
+</section>
+
+<!-- RESEPSI -->
+<section class="section animate hidden">
+    <h2>Resepsi</h2>
+    <p><strong>14 – 15 Januari 2026</strong></p>
+    <p>Pukul 11.00 WIB – Selesai</p>
+    <p class="alamat">
+        Dk. Gondoriyo, RT.2/RW.8,<br>
+        Ds. Klakahkasihan, Kec. Gembong,<br>
+        Kab. Pati, Jawa Tengah
+    </p>
+    <a href="https://maps.google.com/?q=-6.6674857,110.9636536" target="_blank" class="btn">
+        Lihat Lokasi
+    </a>
+</section>
+
+<!-- AMPLOP DIGITAL -->
+<section class="section light animate hidden">
+    <h2>Amplop Digital</h2>
+    <div class="rekening">
+        <p><strong>Bank BCA</strong></p>
+        <p>0980489248</p>
+        <p>a.n Wahyudi Aji Destiyawan</p>
+    </div>
+</section>
+
+<!-- PENUTUP -->
+<section class="section animate hidden">
+    <p class="penutup">
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami
+        apabila Bapak/Ibu/Saudara/i berkenan hadir
+        dan memberikan doa restu.
+    </p>
+
+    <h2>Wassalamu’alaikum Wr. Wb.</h2>
+</section>
+
+<!-- OUR MOMENT -->
+<section class="section animate hidden">
+
+    <div class="final-photo">
+        <img src="assets/img/couple.jpeg" alt="Wahyudi & Vena">
+    </div>
+
+    <p class="hormat">
+        Hormat Kami
+    </p>
+
+    <p class="nama-akhir">
+        Wahyudi & Vena
+    </p>
+</section>
+
+<!-- MUSIC BUTTON -->
+<button class="music-btn" onclick="toggleMusic()">♫</button>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
